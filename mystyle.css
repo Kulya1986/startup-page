@@ -1,16 +1,10 @@
 html, body{
-	 width: 100%;
-	 height: 100%;
+	width: 100%;
 	font-family: 'El Messiri', sans-serif;
 	background: url('back.jpg') no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	color: #003333;
 }
-
-
 
 h1, .navbar-brand, .navbar, .card-title, .card-text {
 	font-family: 'El Messiri', sans-serif;
@@ -44,6 +38,7 @@ hr {
 }
 
 .card{
+	width: 30%;
 	margin: 10px 15px;
 	background-color: #9BC4C4;
 	border-color: #003333;
@@ -66,5 +61,10 @@ hr {
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
+}
+
+.card-img-top{
+	margin: 1.5rem auto;
+    width: 70%;
 }
 
