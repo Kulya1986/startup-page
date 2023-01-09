@@ -40,10 +40,11 @@ hr {
 	margin: 1rem 0.8rem;
 	background-color: #9BC4C4;
 	border-color: #003333;
-	text-align: justify;
+	text-align: center;
 }
 .btn-primary{
 	background-color: #0D4D4D;
+	padding: 0.5rem 2rem;
 	border-color: #0D4D4D;
 	transition: transform 1s ease;
 	margin: 0px auto;
@@ -64,4 +65,7 @@ hr {
 }
 .card-title{
 	text-align: center;
+}
+.card-text{
+	text-align: justify;
 }
